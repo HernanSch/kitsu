@@ -1,0 +1,29 @@
+
+<div class="general">
+  <div>
+    <app-search></app-search>
+  </div>
+    <div class="general__first">
+      <div class="general__first--average">
+        <h3>Animes mejor evaluados</h3>
+        <app-average [listAverage]="average"></app-average>
+        <h3>Animes lo mas esperados</h3>
+        <app-average [listCurrent]="current"></app-average>
+        <h3>Animes populares esta semana</h3>
+        <app-average [list]="trending"></app-average>
+        <h3>Animes más esperados</h3>
+        <app-average [listUpComing]="upcoming"></app-average>
+        <h3>Animes más populares</h3>
+        <app-average [listUsercount]="usercount"></app-average>
+
+      </div>
+      <div class="general__first--category">
+        <h3>CATEGORIAS</h3>
+        <app-category [listAll]="listAllC"></app-category>
+      </div>
+    </div>
+</div>
+
+
+
+

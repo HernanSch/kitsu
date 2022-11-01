@@ -1,0 +1,19 @@
+.header{
+  display: flex;
+
+  &__imageLogo{
+    width: 120px;
+    height: 120px;
+  }
+
+  &__menu{
+    display: flex;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 3%;
+  }
+
+}
+
+
+
